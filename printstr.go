@@ -5,8 +5,8 @@ import (
 )
 
 func PrintStr(s string) {
-    ar := []rune(s)
-    for  , t := range ar{
-    	z01.PrintRune(t)
-    }
+	ar := []rune(s)
+	for _, t := range ar {
+		z01.PrintRune(t)
+	}
 }
