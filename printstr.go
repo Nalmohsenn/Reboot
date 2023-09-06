@@ -6,7 +6,7 @@ import (
 
 func PrintStr(s string) {
 	ar := []rune(s)
-	for _, t := range ar {
-		z01.PrintRune(t)
+	for _, n := range ar {
+		z01.PrintRune(n)
 	}
 }
