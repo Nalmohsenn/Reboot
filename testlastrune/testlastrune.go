@@ -5,7 +5,6 @@ import (
 
 	"piscine"
 )
-
 func main() {
 	z01.PrintRune(piscine.LastRune("Hello!"))
 	z01.PrintRune(piscine.LastRune("Salut!"))
