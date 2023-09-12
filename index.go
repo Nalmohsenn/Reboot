@@ -7,7 +7,7 @@ func Index(s string, toFind string) int {
 	if len(s) > 0 && len(toFind) > 0 {
 		if len(s) == len(toFind) {
 			for i := 0; i <= len(s); i++ {
-				if compare(s, toFind) == 0 {
+				if Compare(s, toFind) == 0 {
 					index = i
 					return index
 				}
