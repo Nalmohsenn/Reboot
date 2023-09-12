@@ -2,15 +2,16 @@ package piscine
 
 func IsAlpha(s string) bool {
 	arr := []rune(s)
-	count := 0
-	for i := 0; i < len(s); i++ {
-		if (arr[i] >= '0' && arr[i] <= '9') || (arr[i] >= 'a' && arr[i] <= 'z') || (arr[i] >= 'A' && arr[i] <= 'Z') {
-			count++
+	alpha := false
+	if len(s) == 0 {
+		return true
+	}
+	for _, letter := range x {
+		if (letter >= 'a' && letter <= 'z') || (letter >= 'A' && letter <= 'Z') || (letter >= '0' && letter <= '9') {
+			alpha = true
+		} else {
+			return false
 		}
 	}
-	if count == len(s) {
-		return true
-	} else {
-		return false
-	}
+	return alpha
 }
