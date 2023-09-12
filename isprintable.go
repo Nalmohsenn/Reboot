@@ -1,6 +1,6 @@
 package piscine
 
-func IsPintable(s string) bool {
+func IsPrintable(s string) bool {
 	count := 0
 	array := []rune(s)
 	for i := 0; i < len(s); i++ {
