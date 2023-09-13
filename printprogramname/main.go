@@ -8,7 +8,7 @@ import (
 
 func main(){
     arguments := os.Args 
-	arr := [rune(arguments[0])]
+	arr := []rune(arguments[0])
 	for i := 0; i < len(arr); i++ {
 		if arr[i] != '.' && array[i] != '/'{
 			z01.PrintRune(arr[i])
