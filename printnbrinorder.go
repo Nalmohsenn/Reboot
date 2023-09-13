@@ -18,7 +18,7 @@ func PrintNbrInOrder(n int) {
 				nb = nb / 10
 				countnb++
 			} else {
-				countnb = false
+				count = false
 			}
 		}
 		temp := 0
