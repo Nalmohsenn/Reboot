@@ -23,7 +23,7 @@ func PrintNbrInOrder(n int) {
 		}
 		temp := 0
 		for j := 0; j < countnb; j++ {
-			for v := v + 1; v < countnb; v++ {
+			for v := j + 1; v < countnb; v++ {
 				if arr[j] > arr[v] {
 					temp = arr[j]
 					arr[j] = arr[v]
